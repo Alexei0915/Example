@@ -57,7 +57,7 @@ string Method4(int count, string text)
 {
 
     string result = String.Empty;
-    for(int i = 0; i< count ; i++)
+    for (int i = 0; i< count ; i++)
     {
       
       result = result + text;
@@ -68,3 +68,15 @@ string Method4(int count, string text)
 
 string res = Method4(10, "S" );
 Console.WriteLine(res);
+
+// пример "For" доп.
+
+for (int i = 2; i <= 10; i++)
+{
+    for (int j = 2; j <= 10; j++)
+    {
+        Console.WriteLine($"{ i }*{ j } = {i * j}"); // Интерпаляция строк
+    }
+    Console.WriteLine();
+}
+
